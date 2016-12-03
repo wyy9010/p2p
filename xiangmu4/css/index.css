@@ -1,0 +1,55 @@
+.navbar {
+  margin-bottom: 0;
+}
+#cc a {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+}
+.ads {
+  width: 100%;
+  margin: 0 auto ;
+  margin-top: 8px;
+}
+#headstyle a {
+  color: #FFFFFF;
+}
+#headstyle ul a:hover {
+  color: #0000FF;
+}
+#headstyle a.tel em {
+  font-size: 24px;
+}
+#bb li a:hover {
+  color: #0066BB;
+  background-color: #e7e7e7;
+}
+.ee {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#carousel-example-generic {
+  max-width: 1400px;
+}
+.ff span:nth-child(1) {
+  color: #2E8ECE;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  border-bottom: 4px solid #2E8ECE;
+}
+.panel-heading {
+  padding: 0 0 2px;
+}
+.pull-right {
+  padding-top: 10px;
+}
+.pull-left {
+  margin-top: 10px;
+}
+.gg .table tr td a {
+  color: #000000;
+}
+.gg .table tr td a:hover {
+  color: #0044CC;
+}
