@@ -1,0 +1,81 @@
+#el-borrow-head {
+  margin-bottom: 0;
+}
+#bb li a:hover {
+  color: #0066BB;
+  background-color: #e7e7e7;
+}
+#cc a {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+}
+#el-borrow-content {
+  margin-bottom: 20px;
+}
+#el-borrow-content .panel {
+  border-radius: 0;
+  border: 0;
+}
+#el-borrow-content .panel .head1 {
+  background-color: #40D47E;
+  border-radius: 0;
+}
+#el-borrow-content .panel .head1 h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "微软雅黑";
+}
+#el-borrow-content .panel .head2 {
+  background-color: #EC7E20;
+  border-radius: 0;
+}
+#el-borrow-content .panel .head2 h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "微软雅黑";
+}
+#el-borrow-content .panel .head3 {
+  background-color: #2CA2EE;
+  border-radius: 0;
+}
+#el-borrow-content .panel .head3 h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "微软雅黑";
+}
+#el-borrow-content .panel .panel-body {
+  background-color: #F9F9F9;
+}
+#el-borrow-content .panel .panel-body p:nth-child(1) {
+  font-family: "微软雅黑";
+  font-size: 18px;
+}
+#el-borrow-content .panel .panel-body .sq {
+  font-size: 12px;
+}
+#el-borrow-content .panel .panel-body p:nth-of-type(2) {
+  margin-top: 10px;
+  font-size: 14px;
+}
+#el-borrow-content .panel .panel-body ul {
+  margin: 0;
+  padding: 0;
+}
+#el-borrow-content .panel .panel-body li {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background: url(../images/sequare.png) left center no-repeat;
+}
+#el-borrow-content .panel .panel-body button {
+  margin-left: 38%;
+  border-radius: 20px;
+  width: 80px;
+}
+#el-borrow-content .panel .panel-body button a {
+  color: #FFFFFF;
+  font-size: 12px;
+  text-decoration: none;
+}

@@ -1,0 +1,51 @@
+#el-realAuth-head {
+  margin-bottom: 0;
+}
+#bb li a:hover {
+  color: #0066BB;
+  background-color: #e7e7e7;
+}
+#cc a {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+}
+#el-realAuth-list {
+  margin-bottom: 50px;
+}
+#el-realAuth-list li ul {
+  margin: 0;
+  padding: 0;
+}
+#el-realAuth-list li ul li {
+  list-style: none;
+  padding: 10px 40px;
+}
+#el-realAuth-list li ul li.active {
+  background-color: #337AB7;
+}
+#el-realAuth-list li ul li.active a {
+  color: #FFFFFF;
+}
+#el-realAuth-list li .list {
+  display: block;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  background-color: #F5F5F5;
+  text-decoration: none;
+}
+#el-realAuth-list li .list3 {
+  display: block;
+  padding-left: 15px;
+  background-color: #F5F5F5;
+  padding: 10px;
+  text-decoration: none;
+}
+#el-realAuth-list .list-group-item {
+  padding: 0;
+}
+#el-userinfo-form {
+  max-width: 600px ;
+  margin: 0 auto;
+}

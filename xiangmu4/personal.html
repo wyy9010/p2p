@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>Bootstrap 101 Template</title>
+
+		<!-- Bootstrap -->
+		<link href="js/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/personal.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery/jquery-2.1.3.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+		<script src="js/jquery/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery/messages_cn.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="nav navbar navbar-inverse" id="el-personal-head">
+			<div class="container" id="headstyle">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aa">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="aa">
+					<ul class="nav navbar-nav navbar-right ">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">小强</a></li>
+						<li><a href="#">账户充值</a></li>
+						<li><a href="#">注销</a></li>
+						<li><a href="#">帮助</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="nav navbar navbar-default" id="cc">
+			<div class="container">
+				<div class="navbar-header">
+					<a href=""><img src="images/logo.png" /></a>
+				</div>
+				<ul class="nav navbar-nav" id="bb" style="text-align: center;">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">我要投资</a></li>
+					<li><a href="#">我要借款</a></li>
+					<li class="active"><a href="#">个人中心</a></li>
+					<li><a href="#">新人指引</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<ul class="list-group col-md-3" id="el-personal-list">
+					<li class="list-group-item ">
+						<a href="#" class="list3">投资项目</a>
+					</li>
+					<li class="list-group-item">
+						<a href="#" class="list3">借款项目</a>
+						<ul>
+							<li><a href="#">借款项目</a></li>
+							<li><a href="#">还款明细</a></li>
+						</ul>
+					</li>
+					<li class="list-group-item">
+						<a href="#" class="list3">我的账户</a>
+						<ul>
+							<li class="active"><a href="#">账户信息</a></li>
+							<li><a href="#">实名认证</a></li>
+							<li><a href="#">银行卡管理</a></li>
+							<li><a href="#">登录记录</a></li>
+						</ul>
+					</li>
+					<li class="list-group-item">
+						<a href="#" class="list3">资产详情</a>
+						<ul>
+							<li><a href="#">账户流水</a></li>
+							<li><a href="#">充值明细</a></li>
+							<li><a href="#">提现记录</a></li>
+							<li><a href="#">收款明细</a></li>
+						</ul>
+					</li>
+					<li class="list-group-item">
+						<a href="#" class="list3">个人资料</a>
+					</li>
+				</ul>
+				<div class="col-md-9">
+					<div class="panel panel-default">
+						<div class="panel-body" id="el-personal-content">
+							<div class="row">
+								<div class="col-md-4 personal-img" >
+									<img src="images/head_icon.jpg" />
+								</div>
+								<div class="col-md-8">
+									<p>昵 称：源代码教育</p>
+									<p>用户名：小强</p>
+									<p>最后登录时间：2016-10-25 15:30:10</p>
+								</div>
+							</div>
+							<hr />
+							<div class="row personal-money" >
+								<div class="col-md-4">
+									总金额：<span class="text-primary">10000元</span>
+								</div>
+								<div class="col-md-4">
+									可用金额：<span class="text-primary">8000元</span>
+								</div>
+								<div class="col-md-4">
+									冻结金额:<span class="text-primary">2000元</span>
+								</div>
+							</div>
+							<div class="personal-account">
+								<a href="#" class="btn btn btn-primary btn-lg">账户充值</a>
+								<a href="#" class="btn btn-danger btn-lg">账户提现</a>
+							</div>
+							<div class="row approve">
+								<div class="col-sm-4">
+									<div class="pull-left">
+										<img src="images/shiming.png" />
+									</div>
+									<div >
+										<p>实名认证</p>
+										<p>未认证 <a href="#">认证</a></p>
+									</div>
+									<p>实名认证之后才能在平台投资</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="pull-left">
+										<img src="images/shouji.jpg" />
+									</div>
+									<div >
+										<p>手机认证</p>
+										<p>已认证 <a href="#">查看</a></p>
+									</div>
+									<p>可以收到系统操作信息,增加使用安全性</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="pull-left">
+										<img src="images/youxiang.jpg" />
+									</div>
+									<div >
+										<p>邮箱认证</p>
+										<p>已认证 <a href="#">查看</a></p>
+									</div>
+									<p>您可以设置邮箱来接收重要信息</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="pull-left">
+										<img src="images/baozhan.jpg" />
+									</div>
+									<div >
+										<p>会员VIP</p>
+										<p>普通用户 <a href="#">查看</a></p>
+									</div>
+									<p>VIP会员，让你更快捷的投资</p>
+								</div>
+								
+							</div>
+							<hr />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="" style="background-color: #F8F8F8;margin-bottom: 20px;padding-top: 30px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+						<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949 / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+						<p><a href="#">14030149号-1</a>  <a href="#">蜀公网安备510114990541</a></p>
+					</div>
+					<div class="col-md-3">
+						<p>官方微博:</p>
+						<a href="#"><img src="images/sina.png" width="70%" /></a>
+						<a href="#"><img src="images/tecent.png" width="70%" /></a>
+					</div>
+					<div class="col-md-2">
+						<p>官方微信:</p>
+						<img src="images/wx.jpg" width="80%" />
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>

@@ -1,0 +1,6 @@
+#headstyle a {
+  color: #FFFFFF;
+}
+#headstyle ul a:hover {
+  color: #0000FF;
+}
