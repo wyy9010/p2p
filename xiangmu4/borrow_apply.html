@@ -10,7 +10,7 @@
 
 		<!-- Bootstrap -->
 		<link href="js/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/realAuth.css">
+		<link rel="stylesheet" href="css/borrow_apply.css">
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,7 +27,7 @@
 	</head>
 
 	<body>
-		<div class="nav navbar navbar-inverse" id="el-realAuth-head">
+		<div class="nav navbar navbar-inverse" id="el-borrow_apply-head">
 			<div class="container" id="headstyle">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aa">
@@ -65,7 +65,7 @@
 
 		<div class="container">
 			<div class="row">
-				<ul class="list-group col-md-3" id="el-realAuth-list">
+				<ul class="list-group col-md-3" id="el-borrow_apply-list">
 					<li class="list-group-item ">
 						<a href="#" class="list3">投资项目</a>
 					</li>
@@ -80,7 +80,7 @@
 						<a href="#" class="list3">我的账户</a>
 						<ul>
 							<li><a href="#">账户信息</a></li>
-							<li class="active"><a href="#">实名认证</a></li>
+							<li><a href="#">实名认证</a></li>
 							<li><a href="#">银行卡管理</a></li>
 							<li><a href="#">登录记录</a></li>
 						</ul>
@@ -95,100 +95,134 @@
 						</ul>
 					</li>
 					<li class="list-group-item">
-						<a href="#" class="list3">个人资料</a>
+						<a href="#" class="active">个人资料</a>
 					</li>
 				</ul>
-				<div class="col-md-9">
-					<div class="panel panel-default" id="el-realAuth-pro">
-						<div class="panel-heading">
-							个人资料
-						</div>
-						 <div class="panel-body">
-						    <p>为保护您账户安全，实名认证成功之后不能修改信息，请认真填写！</p>
-						  </div>
-						<form class="form-horizontal" method="post" action="#" id="el-realAuth-form">
-							<div class="form-group">
-								 <label class="col-sm-4 control-label">用户名</label>
-								<div class="col-sm-8">
-									 <p class="form-control-static">小强</p>
-								</div>
-							</div>
-							<div class="form-group">
-								 <label class="col-sm-4 control-label">姓名</label>
-								<div class="col-sm-8">
-									 <input type="text" class="username" id="username" >
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="tel" class="col-sm-4 control-label">性别</label>
-								<div class="col-sm-3">
-									<select class="form-control">
-									  	<option>男</option>
-									  	<option>女</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="tel" class="col-sm-4 control-label">证件类型</label>
-								<div class="col-sm-3">
-									<select class="form-control">
-									  	<option>身份证</option>
-									  	<option>驾驶证</option>
-									  	<option>军官证</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group">
-								 <label class="col-sm-4 control-label">证件号码</label>
-								<div class="col-sm-8">
-									<input type="text" class="" id="" >
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="tel" class="col-sm-4 control-label">出生日期</label>
-								<div class="col-sm-8">
-									<input type="text" class="birth" id="birth" >
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="tel" class="col-sm-4 control-label ">证件地址</label>
-								<div class="col-sm-8">
-									<input type="text" class="voucher-add" id="voucher-add" >
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="tel" class="col-sm-4 control-label ">身份证照片</label>
-								<div class="col-sm-8">
-									<p class="idcard-describe">请点击“选择图片”,选择证件的正反两面照片。</p>
-									<div class="col-md-5 idcard-front" >
-										<div class="idcard-front1">
-											<span>上传正面</span>
-										</div>
-										<div class="idcard-front2">
-											
-										</div>
-									</div>
-									<div class="col-md-5 idcard-side" >
-										<div class="idcard-side1">
-											<span>上传背面</span>
-										</div>
-										<div class="idcard-side2">
-											
-										</div>
-									</div>
-									<a href="" >查看样板</a>
-								</div>
-							</div>
-							
-							<div class="form-group">
-								<div class="col-sm-offset-4 col-sm-8 ">
-									<button type="submit" class="btn btn-primary">提交认证</button>
-								</div>
-							</div>
-						</form>
+				<div class="col-md-9" id="el-borrow_apply-pro">
+					<div class="lineofcredit">
+						<h3>信用借款</h3>
+						<p>
+							<span class="text-info">授信额度 : </span><span class="text-danger"> 2000</span>
+							<span class="text-info can">可借金额 : </span><span class="text-danger"> 2000</span>
+						</p>
 					</div>
+					<div class="page-header lead">
+						借款信息
+						<span class="label label-primary">信用标</span>
+					</div>
+					<form class="form-horizontal" method="post" action="#" id="el-userinfo-form">
+						<div class="form-group">
+							<label class="col-sm-3 control-label">借款金额</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<input type="text" class="form-control" aria-describedby="basic-addon">
+									<span class="input-group-addon" id="basic-addon">元</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">借款利息</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<input type="text" class="form-control" aria-describedby="basic-addon1">
+									<span class="input-group-addon" id="basic-addon1">%</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">证件号码</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<select class="form-control">
+									  	<option>1</option>
+									  	<option>3</option>
+									  	<option>6</option>
+									  	<option>9</option>
+									  	<option>12</option>
+									  	<option>24</option>
+									</select>
+									<span class="input-group-addon" id="basic-addon2">月</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="tel" class="col-sm-3 control-label">还款方式</label>
+							<div class="col-sm-4">
+								<label class="radio-inline">
+									<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked="checked"> 按月分期
+								</label>
+								<label class="radio-inline">
+									<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 按季度分期
+								</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">最小投标</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<input type="text" class="form-control" aria-describedby="basic-addon3">
+									<span class="input-group-addon" id="basic-addon3">元</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">投标奖金</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<input type="text" class="form-control" aria-describedby="basic-addon4" placeholder="0">
+									<span class="input-group-addon" id="basic-addon4">%</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">招标天数</label>
+							<div class="col-sm-4">
+								<div class="input-group">
+									<select class="form-control">
+									  	<option>1</option>
+									  	<option>2</option>
+									  	<option>3</option>
+									  	<option>4</option>
+									  	<option>5</option>
+									  	<option>6</option>
+									  	<option>7</option>
+									  	<option>8</option>
+									  	<option>9</option>
+									  	<option>10</option>
+									  	<option>11</option>
+									  	<option>12</option>
+									</select>
+									<span class="input-group-addon" id="basic-addon2">天</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="tel" class="col-sm-3 control-label">借款标题</label>
+							<div class="col-sm-6">
+								<input type="title" class="form-control" id="tel" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="tel" class="col-sm-3 control-label">个人学历</label>
+							<div class="col-sm-6">
+								<textarea name="note" class="form-control" style="resize: none;"></textarea>
+							</div>
+						</div>
+						
+						
+						<div class="form-group">
+							<div class="col-sm-offset-3 col-sm-8 ">
+								<button type="submit" class="btn btn-primary">提交申请</button>
+							</div>
+						</div>
+						<div class="cost">
+							<p class="correlation">相关费用</p>
+							<p><span class="text-info">利息</span> --</p>
+							<p><span class="text-info">奖金</span> --</p>
+							<p><span class="text-info">管理费</span> --</p>
+						</div>
+					</form>
 				</div>
-
 			</div>
 		</div>
 

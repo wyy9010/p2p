@@ -11,15 +11,19 @@
   margin: 0 auto ;
   margin-top: 8px;
 }
-
-
+#headstyle a {
+  color: #FFFFFF;
+}
+#headstyle ul a:hover {
+  color: #0000FF;
+}
 #headstyle a.tel em {
   font-size: 24px;
 }
-/*#bb li a:hover {
+#bb li a:hover {
   color: #0066BB;
-  background-color: #E7E7E7;
-}*/
+  background-color: #e7e7e7;
+}
 .ee {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -48,4 +52,8 @@
 }
 .gg .table tr td a:hover {
   color: #0044CC;
+}
+#list .panel table tr > td.rank {
+  text-align: center;
+  color: #A94442;
 }

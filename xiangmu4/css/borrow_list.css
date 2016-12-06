@@ -1,4 +1,4 @@
-#el-request-head {
+#el-borrow_list-head {
   margin-bottom: 0;
 }
 #bb li a:hover {
@@ -10,24 +10,24 @@
   padding-bottom: 0;
   line-height: 80px;
 }
-#el-request-list {
+#el-borrow_list-list {
   margin-bottom: 50px;
 }
-#el-request-list li ul {
+#el-borrow_list-list li ul {
   margin: 0;
   padding: 0;
 }
-#el-request-list li ul li {
+#el-borrow_list-list li ul li {
   list-style: none;
   padding: 10px 40px;
 }
-#el-request-list li ul li.active {
+#el-borrow_list-list li ul li.active {
   background-color: #337AB7;
 }
-#el-request-list li ul li.active a {
+#el-borrow_list-list li ul li.active a {
   color: #FFFFFF;
 }
-#el-request-list li .list {
+#el-borrow_list-list li .list {
   display: block;
   border-bottom: 1px solid #dddddd;
   padding-bottom: 10px;
@@ -35,16 +35,16 @@
   background-color: #F5F5F5;
   text-decoration: none;
 }
-#el-request-list li .list3 {
+#el-borrow_list-list li .list3 {
   display: block;
   padding-left: 15px;
   background-color: #F5F5F5;
   padding: 10px;
   text-decoration: none;
 }
-#el-request-list .list-group-item {
+#el-borrow_list-list .list-group-item {
   padding: 0;
 }
-#el-request-pro {
+#el-borrow_list-pro {
   padding-bottom: 60px;
 }
